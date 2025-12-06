@@ -1,0 +1,21 @@
+{
+  "cli": {},
+  "build": {
+    "development": {
+      "channel": "development"
+    },
+    "production": {
+      "channel": "production" 
+    },
+    "internal_apk_test": {
+      "channel": "internal",
+      "distribution": "internal", 
+      "android": {
+        "buildType": "apk" 
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
